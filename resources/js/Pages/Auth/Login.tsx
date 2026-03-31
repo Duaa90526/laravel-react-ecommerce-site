@@ -56,7 +56,7 @@ export default function Login({
                     <InputError message={errors.email} className="mt-2" />
                 </div>
 
-                <div className="mt-4">
+                <div className="mt-4339">
                     <InputLabel htmlFor="password" value="Password" />
 
                     <TextInput
@@ -88,7 +88,9 @@ export default function Login({
                             Remember me
                         </span>
                     </label>
+                    
                 </div>
+                
 
                 <div className="mt-4 flex items-center justify-end">
                     {canResetPassword && (
@@ -104,6 +106,7 @@ export default function Login({
                         Log in
                     </PrimaryButton>
                 </div>
+                
             </form>
         </GuestLayout>
     );
