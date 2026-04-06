@@ -1,3 +1,8 @@
+
+
+
+
+
 import { PageProps } from '@/types';
 import { Head, Link } from '@inertiajs/react';
 
